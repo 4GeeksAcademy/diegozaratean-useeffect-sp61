@@ -7,6 +7,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Count from "./component/count.jsx";
+import Getdata from "./component/getdata.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Getdata />, document.querySelector("#app"));
